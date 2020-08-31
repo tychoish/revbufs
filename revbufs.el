@@ -1,9 +1,11 @@
-;;; revbufs.el -- reverts all out-of-date buffers safely
+;;; revbufs.el --- Reverts all out-of-date buffers safely
 
 ;; Author:   Neil Van Dyke <neil@neilvandyke.org>
+;; Maintainer: Sam Kleinman <sam@tychoish.com>
 ;; Version:  1.2
-;; X-URL:    http://www.neilvandyke.org/revbufs/
+;; URL:      http://www.neilvandyke.org/revbufs/
 ;; X-CVS:    $Id: revbufs.el,v 1.20 2007-03-02 05:45:46 neil Exp $ GMT
+;; Keywords: convenience buffers
 
 ;; Copyright (C) 1997-1999,2002,2007 Neil W. Van Dyke.  This is free software;
 ;; you can redistribute it and/or modify it under the terms of the GNU General
@@ -146,5 +148,4 @@
   (format "%d %s%s" num what (if (= num 1) "" "s")))
 
 (provide 'revbufs)
-
-;; revbufs.el ends here
+;;; revbufs.el ends here

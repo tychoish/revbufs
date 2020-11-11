@@ -1,3 +1,6 @@
+[![MELPA](https://melpa.org/packages/revbufs-badge.svg)](https://melpa.org/#/revbufs)
+[![MELPA Stable](https://stable.melpa.org/packages/revbufs-badge.svg)](https://stable.melpa.org/#/revbufs)
+
 # revbufs
 
 My fork of this library, call `revbufs` for a safe reversion of buffers,
